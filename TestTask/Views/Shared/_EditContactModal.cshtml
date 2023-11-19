@@ -1,0 +1,51 @@
+﻿@model ContactsModel
+
+<div class="modal fade" id="editContactPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="editContactForm"  method="post" asp-action="Update" asp-controller="Contacts">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit the contact</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="Cancel()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" asp-for="@Model.Contact.ContactId" class="updateId"/>
+                        <div class="input-control">
+                            <label asp-for="Contact.Name" class="control-label"></label>
+                            <input asp-for="Contact.Name" class="form-control" id="cntName"/>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label asp-for="Contact.Surname" class="control-label"></label>
+                            <input asp-for="Contact.Surname" class="form-control" id="cntSurname"/>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label asp-for="Contact.JobTitle" class="control-label"></label>
+                            <input asp-for="Contact.JobTitle" class="form-control" id="cntJobTitle"/>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <label asp-for="Contact.BirthDate" class="control-label"></label>
+                            <input type="date" asp-for="Contact.BirthDate" class="form-control"/>
+                        </div>
+                        
+                        <div class="input-control">
+                            <label asp-for="Contact.MobilePhone" class="control-label"></label>
+                            <input asp-for="Contact.MobilePhone" class="form-control" id="cntMobilePhone"/>
+                            <div class="error"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-danger" onclick="Confirm()" id="showModal">Delete</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="Cancel()" >Cancel</button>
+                    <button style="background-color: #343a40" type="submit" class="btn btn-primary">Update changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

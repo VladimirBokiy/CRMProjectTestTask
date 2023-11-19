@@ -1,0 +1,24 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  testtask:
+    build:
+      context: "C:\\Users\\Vladimir\\Desktop\\TestTask"
+      dockerfile: "TestTask/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/TestTask.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net7.0/TestTask.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      NUGET_PACKAGES: "C:\\Users\\Vladimir\\.nuget\\packages"
+      NUGET_FALLBACK_PACKAGES: "C:\\Users\\Vladimir\\.nuget\\packages"
+    image: "testtask:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Vladimir\\.nuget\\packages:/root/.nuget/fallbackpackages"
+    - "C:\\Users\\Vladimir\\Desktop\\TestTask\\TestTask:/app:rw"
+    - "C:\\Users\\Vladimir\\Desktop\\TestTask:/src:rw"
+    working_dir: "/app"

@@ -1,0 +1,33 @@
+﻿@model ContactsModel
+
+
+<!-- Add new contact -->
+<partial name="_AddContactModal"/>
+
+<!-- Update contact -->
+<partial name="_EditContactModal"/>
+
+<!-- Delete contact -->
+<partial name="_DeleteContactModal"/>
+
+<ol class="rounded">
+  @foreach (var c in Model.Contacts)
+  {
+    <li>
+      <a onclick="EditForm(@c.ContactId)" class="name">
+        @c.Name @c.Surname
+      </a>
+    </li>
+  }
+</ol>
+<!-- Button trigger modal -->
+      <button style="background-color: #343a40" type="button" class="btn btn-primary" data-toggle="modal" data-target="#addContactPopup">
+        Add
+      </button>
+
+
+@section Scripts
+{
+  <script src="~/js/Contacts/index.js"></script>
+  <link rel="stylesheet" href="~/css/Contacts/Index.css" asp-append-version="true"/>
+}

@@ -1,0 +1,18 @@
+﻿services:
+  sql:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    container_name: contacts-db
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=y
+      - SA_PASSWORD=pass12344321!
+  testtask:
+    image: testtask
+    container_name: test-task
+    ports:
+      - "5000:80"
+    build:
+      context: .
+      dockerfile: TestTask/Dockerfile
+  
