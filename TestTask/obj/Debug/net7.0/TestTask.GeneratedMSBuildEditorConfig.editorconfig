@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestTask
 build_property.RootNamespace = TestTask
-build_property.ProjectDir = C:\Users\Vladimir\Desktop\TestTask\TestTask\
+build_property.ProjectDir = C:\Users\Vladimir\Desktop\CRMTestTask\CRMProjectTestTask\TestTask\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\Vladimir\Desktop\TestTask\TestTask
+build_property.MSBuildProjectDirectory = C:\Users\Vladimir\Desktop\CRMTestTask\CRMProjectTestTask\TestTask
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/Contacts/Index.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/Contacts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/Shared/Error.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/Shared/_AddContactModal.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/Shared/_AddContactModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRDb250YWN0TW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/Shared/_DeleteContactModal.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/Shared/_DeleteContactModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZWxldGVDb250YWN0TW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/Shared/_EditContactModal.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/Shared/_EditContactModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FZGl0Q29udGFjdE1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/Shared/_Layout.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/_ViewImports.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Desktop/TestTask/TestTask/Views/_ViewStart.cshtml]
+[C:/Users/Vladimir/Desktop/CRMTestTask/CRMProjectTestTask/TestTask/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

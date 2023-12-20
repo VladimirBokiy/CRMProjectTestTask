@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladimir\\Desktop\\TestTask\\TestTask\\TestTask.csproj": {}
+    "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask\\TestTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladimir\\Desktop\\TestTask\\TestTask\\TestTask.csproj": {
+    "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask\\TestTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\Desktop\\TestTask\\TestTask\\TestTask.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask\\TestTask.csproj",
         "projectName": "TestTask",
-        "projectPath": "C:\\Users\\Vladimir\\Desktop\\TestTask\\TestTask\\TestTask.csproj",
+        "projectPath": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask\\TestTask.csproj",
         "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\Desktop\\TestTask\\TestTask\\obj\\",
+        "outputPath": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
