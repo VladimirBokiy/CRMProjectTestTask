@@ -22,7 +22,14 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
+    
+    - name: Start containers
+      run: docker-compose up -d
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
       run: dotnet test
+    
+    - name: Stop containers
+      if: always()
+      run: docker-compose -f "docker-compose.yml" down
