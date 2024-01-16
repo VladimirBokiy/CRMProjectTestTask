@@ -11,7 +11,6 @@ COPY . .
 WORKDIR "/src/TestTask"
 RUN dotnet build "TestTask.csproj" -c Release -o /app/build
 
-
 FROM build AS publish
 RUN dotnet publish "TestTask.csproj" -c Release -o /app/publish /p:UseAppHost=false
 

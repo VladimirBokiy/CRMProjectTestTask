@@ -2,7 +2,7 @@
 services:
   testtask:
     build:
-      context: "C:\\Users\\Vladimir\\Desktop\\TestTask"
+      context: "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask"
       dockerfile: "TestTask/Dockerfile"
       target: "base"
     command: []
@@ -12,13 +12,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net7.0/TestTask.staticwebassets.runtime.CT.json"
-      DOTNET_USE_POLLING_FILE_WATCHER: "true"
-      NUGET_PACKAGES: "C:\\Users\\Vladimir\\.nuget\\packages"
-      NUGET_FALLBACK_PACKAGES: "C:\\Users\\Vladimir\\.nuget\\packages"
     image: "testtask:dev"
     ports: []
     volumes:
-    - "C:\\Users\\Vladimir\\.nuget\\packages:/root/.nuget/fallbackpackages"
-    - "C:\\Users\\Vladimir\\Desktop\\TestTask\\TestTask:/app:rw"
-    - "C:\\Users\\Vladimir\\Desktop\\TestTask:/src:rw"
+    - "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask:/app:rw"
     working_dir: "/app"

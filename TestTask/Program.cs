@@ -11,7 +11,7 @@ builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ContactsDb"))
-);
+);  
 
 builder.Services.AddTransient<IContactService, ContactService>();
 
@@ -40,7 +40,6 @@ using (var scope = app.Services.CreateScope())
     if (context.Database.GetPendingMigrations().Any())
     {
         context.Database.Migrate();
-        
     }
     context.Database.EnsureDeleted();
     context.Database.EnsureCreated();

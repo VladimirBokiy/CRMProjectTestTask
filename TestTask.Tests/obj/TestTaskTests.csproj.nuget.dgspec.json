@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask.Tests\\TestTask.Tests.csproj": {}
+    "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTaskTests\\TestTaskTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask.Tests\\TestTask.Tests.csproj": {
+    "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTaskTests\\TestTaskTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask.Tests\\TestTask.Tests.csproj",
-        "projectName": "TestTask.Tests",
-        "projectPath": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask.Tests\\TestTask.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTaskTests\\TestTaskTests.csproj",
+        "projectName": "TestTaskTests",
+        "projectPath": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTaskTests\\TestTaskTests.csproj",
         "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTask.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Vladimir\\Desktop\\CRMTestTask\\CRMProjectTestTask\\TestTaskTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,7 +49,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.8.0, )"
+              "version": "[17.3.2, )"
             },
             "NUnit": {
               "target": "Package",
