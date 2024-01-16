@@ -20,6 +20,6 @@ public class Tests
     public void Test1()
     {
         var result = _contactService.GetContact(1);
-        Assert.Equals(result.Name, "Ivan");
+        Assert.That(result.Name, Is.EqualTo("Ivan"));
     }
 }
